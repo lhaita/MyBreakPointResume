@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="liuhao.baway.com.mybreakpointresume.MainActivity">
+    <Button
+        android:text="下载"
+        android:onClick="xiazai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="暂停"
+        android:onClick="zanting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="继续"
+        android:onClick="jixu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="取消"
+        android:onClick="quxiao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+    <ProgressBar
+        android:id="@+id/pro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        />
+    <com.superplayer.library.SuperPlayer
+        android:id="@+id/submenuarrow"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.superplayer.library.SuperPlayer>
+
+
+
+
+
+
+</LinearLayout>
